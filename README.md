@@ -143,4 +143,4 @@ if __name__ == '__main__':
     * 关于`code=1006`：
 
             https://github.com/Rapptz/discord.py/issues/1996
-            https://github.com/aaugustin/websockets/issues/587
+            https://github.com/aaugustin/websockets/issues/587# bitget-python-sdk-api
