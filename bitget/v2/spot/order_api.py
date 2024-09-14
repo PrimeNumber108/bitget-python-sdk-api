@@ -22,6 +22,9 @@ class OrderApi(Client):
     def currentOrders(self, params):
         return self._request_with_params(GET, '/api/v2/spot/trade/unfilled-orders', params)
 
+    def orderInfos(self, params):
+        return self._request_with_params(GET, '/api/v2/spot/trade/orderInfo', params)
+    
     def historyOrders(self, params):
         return self._request_with_params(GET, '/api/v2/spot/trade/history-orders', params)
 
